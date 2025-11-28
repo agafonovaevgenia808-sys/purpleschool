@@ -101,6 +101,7 @@ header {
 
 .action button:hover {
   background-color: #6C38CC;
+  cursor: pointer;
 }
 
 .choise-course {
@@ -131,6 +132,7 @@ header {
 
 .photos button:hover {
   background-color: #6C38CC;
+  cursor: pointer;
 }
 
 .user {
