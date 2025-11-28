@@ -6,7 +6,7 @@ header {
   background-color: #1E1F29;
 }
 
-.head {
+.header-container {
   display: flex;
   color: #FAFAFA;
   gap: 231px;
@@ -21,7 +21,7 @@ header {
 }
 
 .logo-img {
-font-size: 42px;
+  font-size: 42px;
 }
 
 .pink {
@@ -30,40 +30,37 @@ font-size: 42px;
   object-fit: contain;
 }
 
-.fiolet{
+.violet {
   width: 12px;
   height: 36px;
   object-fit: contain;
 }
-
 
 .photos img {
   width: 458px;
   height: 258px;
 }
 
-.name {
+.logo-name {
   font-size: 24px;
   color: #FAFAFA;
   width: 182px;
   line-height: 52px;
 }
 
-.head ul {
+.header-container ul {
   list-style: none;
   display: flex;
   gap: 40px;
   font-size: 18px;
   align-items: center;
-  
 }
 
 .curs {
-  border: #4D5064 solid 1px;
+  border: 1px solid #4D5064;
   border-radius: 8px;
    padding: 8px 16px;
 }
-
 
 .user {
   display: flex;
@@ -89,38 +86,37 @@ font-size: 42px;
   -webkit-text-fill-color: transparent;
 }
 
-.button {
+.action {
   display: flex;
   gap: 32px;
 }
 
-.fff {
+.action button  {
   background-color: #1E1F29;
-  border: solid 1px #4D5064;
+  border: 1px  solid #4D5064;
   color: #FAFAFA;
   padding: 16px 36px;
   border-radius: 10px;
 }
 
-.fff:hover {
+.action button:hover {
   background-color: #6C38CC;
 }
 
-.cyrsa {
-  flex-direction: column;
-  display: flex;
-}
-
-.pay {
+.choise-course {
   display: flex;
   gap: 218px;
+  flex-direction: column;
 }
 
 .photos {
   flex-direction: column;
  position: relative;
- object-fit: cover;
 }
+
+.photos img {
+    object-fit: cover;
+  }
 
 .photos button {
   padding: 16px 32px;
@@ -137,21 +133,26 @@ font-size: 42px;
   background-color: #6C38CC;
 }
 
-.user:hover {
-  transform:scale(1.2);
-}
 .user {
   transition: transform 0.3s ease;
 }
 
-@keyframes my-animation {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(100px);
-  }
+.user:hover {
+  transform:scale(1.2);
 }
 
 .logo {
-  animation: my-animation 2s infinite;}
+  animation: my-animation 4s infinite;
+}
+
+@keyframes my-animation {
+  0% {
+    transform: translateX(0) scale(1);
+  }
+  50% {
+    transform: translateX(170px) scale(1.3);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}
