@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+.text-rating img {
+  width: 186px;
+  height: 46px;
+}
+
+.block-criticism {
+background-color: #1E1F29;
+border-radius: 10px;
+height: 252px;
+display: flex;
+margin-top: 48px;
+}
+
+.criticism-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 34px 412px 4px 32px;
+}
+
+.characteristic {
+ width: 117px;
+ height: 24px;
+ display: flex;
+ gap: 32px;
+}
+
+.criticism-content h2 {
+font-size: 24px;
+color: #FAFAFA;
+}
+
+.criticism-content p {
+  font-size: 16px;
+  color: #FAFAFA;
+  display: flex;
+  width: 742px;
+  line-height: 150%;
+}
+
+.block-criticism button {
+  padding: 16px 32px;
+  background-color: #1E1F29;
+  color: #FAFAFA;
+  border: 1px solid #4D5064;
+  border-radius: 10px;
+  width: 158px;
+  height: 54px;
+  margin: 35px 40px;
+  cursor: pointer;
+}
+
+.block-criticism button:hover {
+  background-color: #2E2D3D;
+}
+
+.publication {
+justify-content: center;
+margin-top: 48px;
+display: flex;
+padding: 16px 32px;
+}
+
+.publication button {
+ background-color: #16171D;
+ border: 1px solid #4D5064;
+ width: 200px;
+ height: 54px;
+ border-radius: 10px;
+ color: #FAFAFA;
+ font-size: 18px;
+ cursor: pointer;
+}
+
+.publication button:hover {
+  background-color: #2E2D3D;
+}

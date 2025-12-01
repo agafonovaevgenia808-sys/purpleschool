@@ -14,6 +14,15 @@ header {
   align-items: center;
 }
 
+.courses-section {
+  background-color: #1E1F29;
+    display: flex;
+  color: #FAFAFA;
+  gap: 231px;
+  padding: 51px 146px;
+  align-items: center;
+}
+
 .logo {
   display: flex;
   gap: 20px;
@@ -97,6 +106,7 @@ header {
   color: #FAFAFA;
   padding: 16px 36px;
   border-radius: 10px;
+  cursor: pointer
 }
 
 .action button:hover {
@@ -127,6 +137,7 @@ header {
   color: #FAFAFA;
   border: none;
   border-radius: 10px;
+  cursor: pointer
 }
 
 .photos button:hover {
