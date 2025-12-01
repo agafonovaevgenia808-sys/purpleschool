@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #101114;
+  height: 482px;
+  padding: 100px 146px;
+}
+
+.footer-content {
+  display: flex;
+  gap: 801px;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-img {
+  font-size: 42px;
+}
+
+.footer-name {
+font-size: 24px;
+  color: #FAFAFA;
+  width: 182px;
+  line-height: 52px;
+}
+
+.priloz-img {
+   width: 186px;
+  height: 46px;
+}
+
+.solution {
+  display: flex;
+  gap: 80px;
+  margin-top: 36px;
+}
+
+.pink-name {
+  font-size: 16px;
+  color: #E47AD5;
+}
+
+.solution-text {
+  display: flex;
+  flex-direction: column;
+  color: #FAFAFA;
+  font-size: 18px;
+  gap: 12px;
+}
+
+.end {
+  display: flex;
+  padding-top: 48px;
+  color: #AFB2BF;
+  font-size: 16px;
+}
