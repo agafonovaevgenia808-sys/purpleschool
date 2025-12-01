@@ -10,7 +10,15 @@ header {
   display: flex;
   color: #FAFAFA;
   gap: 231px;
-  padding: 51px 146px;
+  padding: 51px 146px 0;
+  align-items: center;
+}
+
+.courses-section {
+  background-color: #1E1F29;
+  display: flex;
+  color: #FAFAFA;
+  gap: 231px;
   align-items: center;
 }
 

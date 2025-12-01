@@ -7,11 +7,15 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+section {
+  padding: 100px 146px;
+}
+
 .cards-header {
   display: flex;
   flex-direction: column;
   gap: 48px;
-  padding: 100px 146px;
 }
 
 .choice {
@@ -57,7 +61,6 @@ main {
   margin-top: 32px;
   gap: 70px;
   flex-wrap: wrap;
-   padding: 100px 146px;
 }
 
 .course-card img {
