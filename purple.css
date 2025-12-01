@@ -97,11 +97,11 @@ header {
   color: #FAFAFA;
   padding: 16px 36px;
   border-radius: 10px;
+  cursor: pointer
 }
 
 .action button:hover {
   background-color: #6C38CC;
-  cursor: pointer;
 }
 
 .choise-course {
@@ -128,11 +128,11 @@ header {
   color: #FAFAFA;
   border: none;
   border-radius: 10px;
+  cursor: pointer
 }
 
 .photos button:hover {
   background-color: #6C38CC;
-  cursor: pointer;
 }
 
 .user {
